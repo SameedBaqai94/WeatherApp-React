@@ -1,0 +1,57 @@
+.container {
+    margin-top: 5%;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.container .main {
+    border-bottom: 1px solid black;
+}
+
+.container .sub {
+    padding: 10px;
+}
+
+.container .sub ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    border: black solid 1px;
+    border-radius: 2px;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    font-size: 14px;
+    padding: 0 10px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: bold;
+}
